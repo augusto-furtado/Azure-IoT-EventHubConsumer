@@ -11,9 +11,9 @@ namespace OperatorApp
 
         // Set the Event Hub-compatible endpoint. At the Event Hub, get the string connection from your "listen" shared access policy
         //split the event hub ednpoint in the variables below: Endpoint=sb://eventhubbyaugusto.servicebus.windows.net/;SharedAccessKeyName=listentelemetry;SharedAccessKey=8fflOEDO1TuUjDYAYzzBW6XW9HKYktvZBtiluAfStcE=;EntityPath=eventhubfordevices
-        private readonly static string s_eventHubsCompatibleEndpoint = "sb://eventhubbyaugusto.servicebus.windows.net/";
+        private readonly static string s_eventHubsCompatibleEndpoint = "sb://teste.servicebus.windows.net/";
         private readonly static string s_eventHubsCompatiblePath = "eventhubfordevices";
-        private readonly static string s_iotHubSasKey = "8fflOEDO1TuUjDYAYzzBW6XW9HKYktvZBtiluAfStcE=";
+        private readonly static string s_iotHubSasKey = "teste=";
         private readonly static string s_iotHubSasKeyName = "listentelemetry";
         //set the consumer group created on the event hub instance or leave the default
         private readonly static string s_consumerGroup = "$Default";
